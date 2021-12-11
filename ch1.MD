@@ -1,4 +1,4 @@
-# Study Keras Basic Ch.1
+# Ch.1 Basic Functions
 ## 0. Keras vs Tensorflow?
     1. 케라스는 파이썬으로 작성된 고수준의 신경한 API
     2. Tensorflow와 결합성이 높고, 아이디어를 최대한 빠르게 모델로

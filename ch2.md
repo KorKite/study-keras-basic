@@ -1,4 +1,4 @@
-# Study Keras Basic Ch.1 - Model Space
+# Ch.2 - Bayesian Model Space
 ## Bayesian Statistics VS Frequentist Statistics
 동전을 1000번 던저서 498번의 앞면이 나온 것을 관측했을 때,
 
