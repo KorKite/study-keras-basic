@@ -32,6 +32,7 @@
     
 ### 관련 자료
 [관련자료1: 각종 경사하강법 수식과 설명](https://ruder.io/optimizing-gradient-descent/index.html#rmsprop)
+
 [관련자료2: Kears Optimizers](https://keras.io/ko/optimizers/)
 
 
@@ -42,4 +43,5 @@
 
 ### 관련 자료
 [관련자료1: Tensorflow Loss Functions](https://www.tensorflow.org/api_docs/python/tf/keras/losses)
+
 [관련자료2: Keras Loss Function](https://keras.io/ko/losses/)
