@@ -6,7 +6,7 @@
 
 ## Objectives
 * [Ch1. Activations, Metrics, Optimizer and Loss Function](https://github.com/KorKite/study-keras-basic/blob/main/ch1.MD)
-* Ch2. Model Space
+* [Ch2. Model Space](https://github.com/KorKite/study-keras-basic/blob/main/ch2.md)
 * Ch3. Basic Tensorflow
 * Ch4. Basic Tensorflow Layers
 * Ch5. Sequential Model
