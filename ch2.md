@@ -15,14 +15,13 @@
 
 ## Bayesian Model Space
 <img src="figures/prior_posterior_likelihood.png" width=500>
-    1. 인공지능 모델 학습은 베이지안 이론에 기반합니다.
+1. 인공지능 모델 학습은 베이지안 이론에 기반합니다.
     
-    2. Likelihood를 실제 값이라고 할 때 우리는 여러 기법(i.e., 통계, 관찰 등)을 통해 
-        사전에 Likelihood가 어떤 함수로 표현 가능할지를 예측하여 Prior를 설정합니다.
+2. Likelihood를 실제 값이라고 할 때 우리는 여러 기법(i.e., 통계, 관찰 등)을 통해 사전에 Likelihood가 어떤 함수로 표현 가능할지를 예측하여 Prior를 설정합니다.
     
-    3. 그 후 우리는 실제 시행을 거쳐서 Likelihood와의 차이를 줄여나갑니다. 실제 관측값을 가지고 업데이트 한 모델을 posterior라 합니다.
+3. 그 후 우리는 실제 시행을 거쳐서 Likelihood와의 차이를 줄여나갑니다. 실제 관측값을 가지고 업데이트 한 모델을 posterior라 합니다.
 
-    4. 많은 데이터 관찰 이후 Likelihood와 Posterior가 더 줄여진 상태가 될 것입니다.
+4. 많은 데이터 관찰 이후 Likelihood와 Posterior가 더 줄여진 상태가 될 것입니다.
 
 
 ## Example1 Dataspace
