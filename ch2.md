@@ -10,8 +10,12 @@
     실제 동전이 나온 것을 관측하면 498/1000이다 (Likelihood)
     동전 앞면에 대한 모델을 1/2에서 498/1000으로 업데이트한다(Posterior)
 
+### 결론
 * Frequentist기법이 우리에게 익숙한 방법이지만, Bayesian의 경우 딥러닝 학습법과 유사하다는 것을 알 수 있습니다.
 * 실제 Bayesian 학습법이 머신러닝 훈련에 기초가 되었습니다.
+* Prior가 CNN을 쓸지, RNN을 쓸지를 결정해주는 것이고
+* Likelihood는 true값
+* Posterior를 훈련 후의 CNN, RNN을 의미한다고 생각하면 됩니다.
 
 ## Bayesian Model Space
 <img src="figures/prior_posterior_likelihood.png" width=500>
