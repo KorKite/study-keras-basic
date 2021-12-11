@@ -11,9 +11,9 @@
     3. 그래서 등장한 것이 이 Activation function임.
 
 ### 관련 자료
-    [관련자료1: keras activations](https://keras.io/ko/activations/)
+[관련자료1: keras activations](https://keras.io/ko/activations/)
 
-    [관련자료2: activation의 역사](https://89douner.tistory.com/22)
+[관련자료2: activation의 역사](https://89douner.tistory.com/22)
 
 
 
@@ -22,7 +22,7 @@
     2. 분류, 회귀 크게 2가지의 테스크를 평가할 때 활용됩니다. 
 
 ### 관련 자료
-    [관련자료1: Keras Metrics](https://keras.io/api/metrics/)
+[관련자료1: Keras Metrics](https://keras.io/api/metrics/)
 
 
 
@@ -31,8 +31,8 @@
     2. 뒤에 배울 모델을 compile하는 과정에서 필요한 두개의 파라미터 중 하나입니다.
     
 ### 관련 자료
-    [관련자료1: 각종 경사하강법 수식과 설명](https://ruder.io/optimizing-gradient-descent/index.html#rmsprop)
-    [관련자료2: Kears Optimizers](https://keras.io/ko/optimizers/)
+[관련자료1: 각종 경사하강법 수식과 설명](https://ruder.io/optimizing-gradient-descent/index.html#rmsprop)
+[관련자료2: Kears Optimizers](https://keras.io/ko/optimizers/)
 
 
 ## 4. Loss Function
@@ -41,5 +41,5 @@
     3. 뒤에 배울 모델을 compile하는 과정에서 필요한 두개의 파라미터 중 하나입니다.
 
 ### 관련 자료
-    [관련자료1: Tensorflow Loss Functions](https://www.tensorflow.org/api_docs/python/tf/keras/losses)
-    [관련자료2: Keras Loss Function](https://keras.io/ko/losses/)
+[관련자료1: Tensorflow Loss Functions](https://www.tensorflow.org/api_docs/python/tf/keras/losses)
+[관련자료2: Keras Loss Function](https://keras.io/ko/losses/)
