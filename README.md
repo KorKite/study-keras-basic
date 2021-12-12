@@ -1,12 +1,10 @@
 # DSAIL Keras Crash Cource
-    딥러닝과 관련된 여러가지를 Keras, Tensorflow로 
-    학습하기 위해 제작하였습니다.
-    주로 이미지 분류를 수행하는데 활용되는 여러 기술을 위주로
-    작성되어 있습니다.
+* 딥러닝과 관련된 여러가지를 Keras, Tensorflow로 학습하기 위해 제작하였습니다.
+* 주로 이미지 분류를 수행하는데 활용되는 여러 기술을 위주로 작성되어 있습니다.
 
 ## Objectives
 * [Ch1. Activations, Metrics, Optimizer and Loss Function](https://github.com/KorKite/study-keras-basic/blob/main/ch1.MD)
-* [Ch2. Model Space](https://github.com/KorKite/study-keras-basic/blob/main/ch2.md)
+* [Ch2. Bayesian Model Space](https://github.com/KorKite/study-keras-basic/blob/main/ch2.md)
 * Ch3. Basic Tensorflow
 * Ch4. Basic Tensorflow Layers
 * Ch5. Sequential Model
