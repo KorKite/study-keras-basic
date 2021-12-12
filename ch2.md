@@ -30,7 +30,7 @@
 
 
 ## Example1 Dataspace
-Data Space가 관측에 따라 변화하는 것을 볼 수 있습니다.
+    Data Space가 관측에 따라 변화하는 것을 볼 수 있습니다.
 <img src="figures/dataspace_1.png" width=500>
 
 <img src="figures/dataspace_2.png" width=500>
@@ -38,7 +38,7 @@ Data Space가 관측에 따라 변화하는 것을 볼 수 있습니다.
 <img src="figures/dataspace_3.png" width=500>
 
 ## Example2 - Sinusoidal Data
-실제 예시와 관측되는 그래프의 변화입니다.
+    실제 예시와 관측되는 그래프의 변화입니다.
 <img src="figures/sinusoidal_1.png" width=500>
 
 <img src="figures/sinusoidal_2.png" width=500>
