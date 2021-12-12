@@ -10,7 +10,7 @@
         bias_regularizer=None, activity_regularizer=None, kernel_constraint=None,
         bias_constraint=None, **kwargs
     )
-<img src="figures/1d_convolution.png" width=500>
+<img src="./../figures/1d_convolution.png" width=500>
 
 
 ### 2. 2D Convolution Layer
@@ -22,7 +22,7 @@
         bias_regularizer=None, activity_regularizer=None, kernel_constraint=None,
         bias_constraint=None, **kwargs
     )
-<img src="figures/2d_convolution.png" width=500>
+<img src="./../figures/2d_convolution.png" width=500>
 
 
 ### 3. 3D Convolution Layer
@@ -34,4 +34,4 @@
         bias_regularizer=None, activity_regularizer=None, kernel_constraint=None,
         bias_constraint=None, **kwargs
     )
-<img src="figures/3d_convolution.gif" width=500>
+<img src="./../figures/3d_convolution.gif" width=500>
