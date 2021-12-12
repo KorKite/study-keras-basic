@@ -26,7 +26,7 @@
 
 
 ### 3. 3D Convolution Layer
-<img src="figures/3d_convolution.png" width=500>
+<img src="figures/3d_convolution.gif" width=500>
     tf.keras.layers.Conv3D(
     filters, kernel_size, strides=(1, 1, 1), padding='valid',
     data_format=None, dilation_rate=(1, 1, 1), groups=1, activation=None,
