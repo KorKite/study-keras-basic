@@ -3,10 +3,10 @@
 * 주로 이미지 분류를 수행하는데 활용되는 여러 기술을 위주로 작성되어 있습니다.
 
 ## Objectives
-* [Ch1. Activations, Metrics, Optimizer and Loss Function](https://github.com/KorKite/study-keras-basic/blob/main/ch1.MD)
-* [Ch2. Bayesian Model Space](https://github.com/KorKite/study-keras-basic/blob/main/ch2.md)
-* Ch3. Basic Tensorflow
-* Ch4. Basic Tensorflow Layers
+* [Ch1. Activations, Metrics, Optimizer and Loss Function](https://github.com/KorKite/study-keras-basic/blob/main/ch1)
+* [Ch2. Bayesian Model Space](https://github.com/KorKite/study-keras-basic/blob/main/ch2)
+* [Ch3. Basic Tensorflow](https://github.com/KorKite/study-keras-basic/tree/main/ch3)
+* [Ch4. Basic Tensorflow Layers](https://github.com/KorKite/study-keras-basic/tree/main/ch4)
 * Ch5. Sequential Model
 * Ch6. Functional API Model
 * Ch7. Class Inherit API Model
