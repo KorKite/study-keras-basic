@@ -38,21 +38,25 @@
 
 ### 4. ConvTranspose (UpConv, DeConv)
 1. Upconv 1D 
+
     tf.keras.layers.Conv1DTranspose(
         filters, kernel_size, strides=(1, 1), padding='valid', ...
     )
 
 2. Upconv 2D
+
     tf.keras.layers.Conv2DTranspose(
         filters, kernel_size, strides=(1, 1), padding='valid', ...
     )
 
 3. Upconv 3D
+
     tf.keras.layers.Conv3DTranspose(
         filters, kernel_size, strides=(1, 1), padding='valid', ...
     )
 
 * Upsampling VS ConvTranspose
+
 UpSampling2D is just a simple scaling up of the image by using nearest neighbour or bilinear upsampling, so nothing smart. Advantage is it's cheap. Conv2DTranspose is a convolution operation whose kernel is learnt (just like normal conv2d operation) while training your model.
 
 
