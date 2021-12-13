@@ -1,4 +1,4 @@
-# DSAIL Keras Crash Cource
+# Keras Crash Cource
 * 딥러닝과 관련된 여러가지를 Keras, Tensorflow로 학습하기 위해 제작하였습니다.
 * 주로 이미지 분류를 수행하는데 활용되는 여러 기술을 위주로 작성되어 있습니다.
 
@@ -21,3 +21,13 @@
 * Ch16. Custom Callbacks
 * Ch17. Custom Layers
 * Ch18. Custom Loss, Custom Metric
+
+
+## Author (저자)
+### Junseo Ko (고준서)
+[깃허브](https://github.com/KorKite), [유튜브](https://www.youtube.com/channel/UCCaunu3Cv09ZCDxU13Gx3Hg)
+* Department of Applied Artificial Intelligence, Sungkyunkwan University
+* [Data Science & Artificial Intelligence Lab.](dsail.skku.edu)
+* [RAONDATA](www.raondata.ai)
+
+
