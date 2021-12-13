@@ -62,17 +62,23 @@ UpSampling2D is just a simple scaling up of the image by using nearest neighbour
 ## Pooling Layers
 ### 1. Maxpooling (1D ~ 3D)
     tf.keras.layers.MaxPool2D(
-        pool_size=(2, 2), strides=None, padding='valid', data_format=None,
-        **kwargs
+        pool_size=(2, 2), strides=None, padding='valid'
     )
+<img src="./../figures/maxpool.png" width=500>
 
-### 1. Avgpooling (1D ~ 3D)
+
+### 2. Avgpooling (1D ~ 3D)
     tf.keras.layers.AveragePooling2D(
-        pool_size=(2, 2), strides=None, padding='valid', data_format=None,
-        **kwargs
+        pool_size=(2, 2), strides=None, padding='valid'
     )
+<img src="./../figures/avgpool.png" width=500>
 
-### 2. Global 
+
+### 3. GlobalAveragePooling (= Flatten 대신 활용하는 레이어)
+    tf.keras.layers.GlobalAveragePooling2D()
+    
+<img src="./../figures/gap.png" width=500>
+
 
 ## Recurrent Neural Net Based Layers
 
