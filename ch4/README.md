@@ -1,6 +1,21 @@
 # ch4 - Basic Keras Layers
 
+## Linear Based Layers
+### Dense Layer (Fully Connected Layer)
+단순한 Linear Layer로 **y = wx + b** 의 단순 연산을 수행
+    tf.keras.layers.Dense(
+        units, activation=None, use_bias=True,
+        kernel_initializer='glorot_uniform',
+        bias_initializer='zeros', kernel_regularizer=None,
+        bias_regularizer=None, activity_regularizer=None, kernel_constraint=None,
+        bias_constraint=None, **kwargs
+    )
+
+<img src="./../figures/dense.png" width=500>
+
+
 ## Convolution Based Layers
+Convolution 연산을 수행하는 레이어이다. 컨볼루션 연산을 모른다면 구글을 참고!
 ### 1. 1D Convolution Layer
     tf.keras.layers.Conv1D(
         filters, kernel_size, strides=1, padding='valid',
@@ -37,6 +52,8 @@
 <img src="./../figures/3d_convolution.gif" width=500>
 
 ### 4. ConvTranspose (UpConv, DeConv)
+Convolution을 반대로 해주는 것이다. 오토인코더의 디코더 부분, GAN의 Generator, Unet 등에 활용된다.
+
 #### 1. Upconv 1D
     tf.keras.layers.Conv1DTranspose(
         filters, kernel_size, strides=(1, 1), padding='valid', ...
@@ -54,9 +71,9 @@
 <img src="./../figures/deconv.png" width=500>
 
 ### Upsampling VS ConvTranspose
+두개의 차이가 햇갈린다면 아래의 인용구를 참고!
 > UpSampling2D is just a simple scaling up of the image by using nearest neighbour or bilinear upsampling, so nothing smart. Advantage is it's cheap. Conv2DTranspose is a convolution operation whose kernel is learnt (just like normal conv2d operation) while training your model.
-
-
+> = Upsampling은 단순히 스케일 업해서 만든걸로 파라미터 X / ConvTranspose는 실제 역-컨볼루션 연산으로 파라미터 O
 
 ***
 
@@ -81,7 +98,31 @@
 ***
 
 ## Recurrent Neural Net Based Layers
+### 1. RNN
+
+### 2. GRU
+
+### 3. LSTM
 
 
+## Layers etc.
+### 1. Input Layer
+Funtional API 사용시 Input 텐서를 정의하기 위한 레이어
 
-## Recurrent Neural Net Based Layers
+### 2. Flatten
+LSTM, CONV에서 나온 피쳐맵을 Dense에 넣기 전 펴주기 위한 레이어
+
+### 3. Dropout
+특정 비율만큼 셀을 꺼서 훈련이 되지 않도록 하여 오버피팅을 방지하는 레이어
+
+### 4. Bidirectional
+양방향 LSTM을 만들어주기 위한 것으로, 앞 뒤의 sequence를 참조할 수 있도록 해줌
+
+### 5. Concatenate
+두 개의 레이어를 결합해준다. 한 개의 shape은 일치해야 결합이 가능함.
+
+### 6. Add, Multiply
+두 레이어 간의 곱샘, 덧샘 등의 연산을 수행할 수 있도록 해줌
+
+### 7. Dot
+두 레이어 출력 간의 행렬연산을 수행하도록 해줌.
