@@ -98,31 +98,64 @@ Convolution을 반대로 해주는 것이다. 오토인코더의 디코더 부�
 ***
 
 ## Recurrent Neural Net Based Layers
-### 1. RNN
+ 입력과 출력을 시퀀스 단위로 처리하는 모델. 
+ ### 1. RNN
+    tf.keras.layers.RNN(
+        cell, return_sequences=False, return_state=False, go_backwards=False,
+    )
 
 ### 2. GRU
+    tf.keras.layers.GRU(
+        units, activation='tanh', recurrent_activation='sigmoid',
+        use_bias=True, dropout=0.0, recurrent_dropout=0.0, return_sequences=False, return_state=False,
+        go_backwards=False,
+    )
 
 ### 3. LSTM
+    tf.keras.layers.LSTM(
+        units, activation='tanh', recurrent_activation='sigmoid',
+        use_bias=True, dropout=0.0, recurrent_dropout=0.0, return_sequences=False, return_state=False,
+        go_backwards=False,
+    )
 
+<img src="./../figures/rnn-based.png" width=500>
 
 ## Layers etc.
 ### 1. Input Layer
 Funtional API 사용시 Input 텐서를 정의하기 위한 레이어
+    tf.keras.layers.Input(
+        input_shape=None
+    )
 
 ### 2. Flatten
 LSTM, CONV에서 나온 피쳐맵을 Dense에 넣기 전 펴주기 위한 레이어
+    tf.keras.layers.Flatten()
 
 ### 3. Dropout
 특정 비율만큼 셀을 꺼서 훈련이 되지 않도록 하여 오버피팅을 방지하는 레이어
+    tf.keras.layers.Dropout(
+        rate
+    )
 
 ### 4. Bidirectional
 양방향 LSTM을 만들어주기 위한 것으로, 앞 뒤의 sequence를 참조할 수 있도록 해줌
+    tf.keras.layers.Bidirectional(
+        layer
+    )
 
 ### 5. Concatenate
 두 개의 레이어를 결합해준다. 한 개의 shape은 일치해야 결합이 가능함.
+    tf.keras.layers.Concatenate(
+        axis=-1
+    )
 
 ### 6. Add, Multiply
 두 레이어 간의 곱샘, 덧샘 등의 연산을 수행할 수 있도록 해줌
+    tf.keras.layers.Add()
+    tf.keras.layers.Multiply()
 
 ### 7. Dot
 두 레이어 출력 간의 행렬연산을 수행하도록 해줌.
+    tf.keras.layers.Dot(
+        axes,
+    )
