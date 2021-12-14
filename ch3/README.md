@@ -7,7 +7,7 @@
 * Numpy와 유사하며, 넘파이에서 가능한 연산이 이 텐서로 모두 가능하다.
 
 ## 2. Tensorflow inner library
-    ```python
+    ```python3
     import tensorflow as tf
     ```
 
