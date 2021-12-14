@@ -7,7 +7,7 @@
 * [Ch2. Bayesian Model Space](https://github.com/KorKite/study-keras-basic/blob/main/ch2)
 * [Ch3. Basic Tensorflow](https://github.com/KorKite/study-keras-basic/tree/main/ch3)
 * [Ch4. Basic Tensorflow Layers](https://github.com/KorKite/study-keras-basic/tree/main/ch4)
-* Ch5. Sequential Model
+* [Ch5. Sequential Model](https://github.com/KorKite/study-keras-basic/tree/main/ch5)
 * Ch6. Functional API Model
 * Ch7. Class Inherit API Model
 * Ch8. Model Training 1 - compile, fit
