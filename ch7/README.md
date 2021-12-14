@@ -50,7 +50,7 @@ class customModel(tf.keras.models.Model):
 ```
 * 이제 call객체 함수에 x를 파라미터로 받아 이것을 funtional API로 정의하듯 처리하고 x를 리턴한다.
 * 이렇게 하고 build를 해주면 모델 정의는 끝이다.
-* 이제 여기에 새로운 객체 함수를 넣어 모델을 커스텀할 수도 있다. 이는 [autoencoder예제]()를 통해 확인해보자.
+* 이제 여기에 새로운 객체 함수를 넣어 모델을 커스텀할 수도 있다. 이는 [autoencoder예제](https://github.com/KorKite/study-keras-basic/blob/main/applications/autoencoder.py)를 통해 확인해보자.
 
 
 # Sum up
@@ -66,8 +66,8 @@ class customModel(tf.keras.models.Model):
 + 이미지 분류 모델인 VGG16을 3가지 다른 방법으로 정의했다. 모두 기능적으로 동일하다.
 
 ### 1. Sequential API
-[Sequential 코드예제]()
+[Sequential 코드예제](https://github.com/KorKite/study-keras-basic/blob/main/applications/vgg16_sequential.py)
 ### 2. Funtional API
-[Funtional 코드예제]()
+[Funtional 코드예제](https://github.com/KorKite/study-keras-basic/blob/main/applications/vgg16_functional.py)
 ### 3. Class Inherit API
-[Class 코드예제]()
+[Class 코드예제](https://github.com/KorKite/study-keras-basic/blob/main/applications/vgg16_class.py)
