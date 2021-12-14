@@ -7,9 +7,9 @@
 * Numpy와 유사하며, 넘파이에서 가능한 연산이 이 텐서로 모두 가능하다.
 
 ## 2. Tensorflow inner library
-    '''python3
+    ```python
     import tensorflow as tf
-    '''
+    ```
 
 위의 코드를 통해 텐서플로우를 불러올 수 있다.
 보통 tf라는 단축어로 tensorflow를 활용한다.
