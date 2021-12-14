@@ -44,3 +44,5 @@ out2 = tf.keras.layers.Dense(1, activation="sigmoid")(x)
 
 model = tf.keras.Model(inp, [out1,out2])
 ```
+
+[예시코드](https://github.com/KorKite/study-keras-basic/blob/main/ch6/example.py)에서 실제 결과를 확인해보자.
