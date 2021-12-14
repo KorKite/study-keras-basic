@@ -6,7 +6,7 @@
 * Tensorflow는 이 Tensor를 활용하여 쉽게 연산할 수 있도록 도와주는 프레임워크이다.
 * Numpy와 유사하며, 넘파이에서 가능한 연산이 이 텐서로 모두 가능하다.
 
-## 2. Tensorflow inner library
+## 2. Tensorflow inner library: keras
 
 ```python
 import tensorflow as tf

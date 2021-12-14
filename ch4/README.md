@@ -2,7 +2,6 @@
 
 ## Linear Based Layers
 ### Dense Layer (Fully Connected Layer)
-단순한 Linear Layer로 **y = wx + b** 의 단순 연산을 수행
     tf.keras.layers.Dense(
         units, activation=None, use_bias=True,
         kernel_initializer='glorot_uniform',
@@ -10,6 +9,7 @@
         bias_regularizer=None, activity_regularizer=None, kernel_constraint=None,
         bias_constraint=None, **kwargs
     )
+단순한 Linear Layer로 **y = wx + b** 의 단순 연산을 수행
 
 <img src="./../figures/dense.png" width=500>
 
@@ -122,40 +122,40 @@ Convolution을 반대로 해주는 것이다. 오토인코더의 디코더 부�
 
 ## Layers etc.
 ### 1. Input Layer
-Funtional API 사용시 Input 텐서를 정의하기 위한 레이어
     tf.keras.layers.Input(
         input_shape=None
     )
+Funtional API 사용시 Input 텐서를 정의하기 위한 레이어
 
 ### 2. Flatten
-LSTM, CONV에서 나온 피쳐맵을 Dense에 넣기 전 펴주기 위한 레이어
     tf.keras.layers.Flatten()
+LSTM, CONV에서 나온 피쳐맵을 Dense에 넣기 전 펴주기 위한 레이어
 
 ### 3. Dropout
-특정 비율만큼 셀을 꺼서 훈련이 되지 않도록 하여 오버피팅을 방지하는 레이어
     tf.keras.layers.Dropout(
         rate
     )
+특정 비율만큼 셀을 꺼서 훈련이 되지 않도록 하여 오버피팅을 방지하는 레이어
 
 ### 4. Bidirectional
-양방향 LSTM을 만들어주기 위한 것으로, 앞 뒤의 sequence를 참조할 수 있도록 해줌
     tf.keras.layers.Bidirectional(
         layer
     )
+양방향 LSTM을 만들어주기 위한 것으로, 앞 뒤의 sequence를 참조할 수 있도록 해줌
 
 ### 5. Concatenate
-두 개의 레이어를 결합해준다. 한 개의 shape은 일치해야 결합이 가능함.
     tf.keras.layers.Concatenate(
         axis=-1
     )
+두 개의 레이어를 결합해준다. 한 개의 shape은 일치해야 결합이 가능함.
 
 ### 6. Add, Multiply
-두 레이어 간의 곱샘, 덧샘 등의 연산을 수행할 수 있도록 해줌
     tf.keras.layers.Add()
     tf.keras.layers.Multiply()
+두 레이어 간의 곱샘, 덧샘 등의 연산을 수행할 수 있도록 해줌
 
 ### 7. Dot
-두 레이어 출력 간의 행렬연산을 수행하도록 해줌.
     tf.keras.layers.Dot(
         axes,
     )
+두 레이어 출력 간의 행렬연산을 수행하도록 해줌.
