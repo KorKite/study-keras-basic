@@ -24,3 +24,13 @@ import tensorflow as tf
 2. tf.keras.backend
     + tf... 하고 뒤에 붙는 Tensor연산을 keras.layer의 API와 활용할 수 있도록 재정의된 엔진이다.
     + expand_dims, lambda 등의 기능을 활용하기 위해 자주 활용된다.
+
+### GPU Usage
+* GPU가 달려있는 서버를 사용할 경우 텐서플로우는 최대한 많은 양의 GPU를 확보하려고 한다.
+* 그렇기 때문에, GPU가 2대일 경우 한대만 활용해주어야 한다.
+```python
+import os
+os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
+os.environ["CUDA_VISIBLE_DEVICES"]= "1"
+```
+다음 코드를 통해 특정 GPU만을 활용하도록 할 수 있다.
