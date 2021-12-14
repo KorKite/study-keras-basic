@@ -9,6 +9,8 @@ model = tf.keras.Model(inp, out)
 model.summary()
 
 
+
+
 # Example2 - Multiple Input
 inp1 = tf.keras.layers.Input([128]) # 1번 인풋
 x1 = tf.keras.layers.Dense(32)(inp1) # Dense를 통과시킨 output
@@ -21,6 +23,8 @@ out = tf.keras.layers.Dense(3, activation="softmax")(x) # 결과 출력층
 
 model = tf.keras.Model([inp1, inp2], out)
 model.summary()
+
+
 
 # Example3 - Multiple Output
 inp = tf.keras.layers.Input([128])

@@ -19,6 +19,7 @@ model = tf.keras.Model(inp, out)
 * 보다시피 레이어의 output을 그다음 레이어에 넣어서 call한다.
 * 그리고 마지막 모델 부분에서 inp, out 을 통해 최종 모델을 빌드하는 것을 볼 수 있다.
 * 인풋 레이어를 정의하기 때문에, 다중 인풋을 정의할 수 있는 강점이 있다.
+* 인풋 레이어가 정의되어, build과정이 필요없다.
 
 ### Multiple Input
 ```python
@@ -46,3 +47,9 @@ model = tf.keras.Model(inp, [out1,out2])
 ```
 
 [예시코드](https://github.com/KorKite/study-keras-basic/blob/main/ch6/example.py)에서 실제 결과를 확인해보자.
+
+
+## 자주 발생하는 에러!
+> ValueError: This model has not yet been built. Build the model first by calling `build()` or calling `fit()` with some data, or specify an `input_shape` argument in the first layer(s) for automatic build.
+* 만약 위와 같은 에러가 발생했다면 **tf.keras.Model**에 []를 넣어서 인풋과 아웃풋 레이어를 묶어준 경우이다. 풀어주자.
+* model = tf.keras.Model([inp, out]) -> model = tf.keras.Model(inp, out)
