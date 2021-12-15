@@ -11,7 +11,7 @@
 * [Ch6. Functional API Model](https://github.com/KorKite/study-keras-basic/tree/main/ch6)
 * [Ch7. Class Inherit API Model](https://github.com/KorKite/study-keras-basic/tree/main/ch7)
 * [Ch8. Model of Keras Application](https://github.com/KorKite/study-keras-basic/tree/main/ch8)
-* Ch9. Model Training 1 - compile, fit
+* [Ch9. Model Training 1 - compile, fit](https://github.com/KorKite/study-keras-basic/tree/main/ch9)
 * Ch10. Callbacks
 * Ch11. Data Generator - flow, from_directory
 * Ch12. Custom Data Loader 1 - Pre-load Data
