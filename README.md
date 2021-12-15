@@ -10,17 +10,18 @@
 * [Ch5. Sequential Model](https://github.com/KorKite/study-keras-basic/tree/main/ch5)
 * [Ch6. Functional API Model](https://github.com/KorKite/study-keras-basic/tree/main/ch6)
 * [Ch7. Class Inherit API Model](https://github.com/KorKite/study-keras-basic/tree/main/ch7)
-* Ch8. Model Training 1 - compile, fit
-* Ch9. Callbacks
-* Ch10. Data Generator - flow, from_directory
-* Ch11. Custom Data Loader 1 - Pre-load Data
-* Ch12. Custom Data Loader 2 - Batch-load Data
-* Ch13. Model Training 2 - gradientTape
-* Ch14. MIL - timeseries layer
-* Ch15. Decay Process (API, gradientTape)
-* Ch16. Custom Callbacks
-* Ch17. Custom Layers
-* Ch18. Custom Loss, Custom Metric
+* [Ch8. Model of Keras Application](https://github.com/KorKite/study-keras-basic/tree/main/ch8)
+* Ch9. Model Training 1 - compile, fit
+* Ch10. Callbacks
+* Ch11. Data Generator - flow, from_directory
+* Ch12. Custom Data Loader 1 - Pre-load Data
+* Ch13. Custom Data Loader 2 - Batch-load Data
+* Ch14. Model Training 2 - gradientTape
+* Ch15. MIL - timeseries layer
+* Ch16. Decay Process (API, gradientTape)
+* Ch17. Custom Callbacks
+* Ch18. Custom Layers
+* Ch19. Custom Loss, Custom Metric
 
 
 ## Author (저자)
