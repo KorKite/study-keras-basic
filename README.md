@@ -27,7 +27,7 @@
 
 ## Author (저자)
 ### Junseo Ko (고준서)
-[깃허브](https://github.com/KorKite), [유튜브](https://www.youtube.com/channel/UCCaunu3Cv09ZCDxU13Gx3Hg)
+[깃허브](https://github.com/KorKite) / [유튜브](https://www.youtube.com/channel/UCCaunu3Cv09ZCDxU13Gx3Hg)
 * Department of Applied Artificial Intelligence, Sungkyunkwan University
 * Data Science & Artificial Intelligence Lab.
 * RAONDATA

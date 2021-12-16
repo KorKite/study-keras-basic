@@ -74,6 +74,16 @@ fit(x=None, y=None, batch_size=None, epochs=1, verbose=1,
 * shuffle = 데이터의 순서를 중간중간 섞어준다.
 * validation_data = split하지 못하거나 사전에 정의된 경우 별도의 데이터를 지정한다.
 
+## 4. save the model
+* 모델을 훈련했으면, 나중에 이 모델을 다시 꺼내올 수 있도록 저장하고, 불러올 수 있어야 합니다.
+```python
+model.save("[저장하고 싶은 경로].h5")
+model = tf.keras.models.load_model("[저장한 모델 경로].h5")
+```
+* 기본적인 모델은 이런 방식으로 저장 가능합니다.
+* 추가적인 수정이 된 레이어를 쓸 경우, ch19의 커스텀 레이어 부분을 참고해주세요!
+
+
 ### 실제 fit 사용예시
 * model이 준비되었고, 데이터는 100개의 x, y가 주어졌다고 가정하자.
 
