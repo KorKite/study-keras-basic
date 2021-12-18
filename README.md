@@ -13,8 +13,8 @@
 * [Ch8. Model of Keras Application](https://github.com/KorKite/study-keras-basic/tree/main/ch8)
 * [Ch9. Model Training 1 - compile, fit](https://github.com/KorKite/study-keras-basic/tree/main/ch9)
 * [Ch10. Callbacks](https://github.com/KorKite/study-keras-basic/tree/main/ch10)
-* Ch11. Data Generator - flow, from_directory
-* Ch12. Custom Data Loader 1 - Pre-load Data
+* [Ch11. Data Generator - flow, from_directory](https://github.com/KorKite/study-keras-basic/tree/main/ch11)
+* [Ch12. Custom Data Loader 1 - Pre-load Data](https://github.com/KorKite/study-keras-basic/tree/main/ch12)
 * Ch13. Custom Data Loader 2 - Batch-load Data
 * Ch14. Model Training 2 - gradientTape
 * Ch15. MIL - timeseries layer
