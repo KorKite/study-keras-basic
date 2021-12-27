@@ -22,7 +22,7 @@
 * Ch17. Custom Callbacks
 * Ch18. Custom Layers
 * Ch19. Custom Loss, Custom Metric
-<img src="./figures/thumnail.png" width=500>
+<img src="figures/thumnail.png" width=500>
 
 
 ## Author (저자)
