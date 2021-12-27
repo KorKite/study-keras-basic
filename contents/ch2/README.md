@@ -18,7 +18,7 @@
 * Posterior를 훈련 후의 CNN, RNN을 의미한다고 생각하면 됩니다.
 
 ## Bayesian Model Space
-<img src="/prior_posterior_likelihood.png" width=500>
+<img src="./../prior_posterior_likelihood.png" width=500>
 
 1. 인공지능 모델 학습은 베이지안 이론에 기반합니다.
     
