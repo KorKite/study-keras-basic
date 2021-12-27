@@ -67,7 +67,7 @@ self.indices는 x의 개수만큼을 정하고 이것을 섞어준다.
 * 이 함수가 메인다.
 * index파라미터에 따라 해당하는 배치의 데이터를 반환한다.
 * 다음 그림을 통해 getitem을 이해해보자.
-<img src= "./../figures/getitem.png" width = 500>
+<img src= "./../../figures/getitem.png" width = 500>
 
 ```python
 def __getitem__(self, index):

@@ -11,7 +11,7 @@
     )
 단순한 Linear Layer로 **y = wx + b** 의 단순 연산을 수행
 
-<img src="./../figures/dense.png" width=500>
+<img src="./../../figures/dense.png" width=500>
 
 
 ## Convolution Based Layers
@@ -25,7 +25,7 @@ Convolution 연산을 수행하는 레이어이다. 컨볼루션 연산을 모�
         bias_regularizer=None, activity_regularizer=None, kernel_constraint=None,
         bias_constraint=None, **kwargs
     )
-<img src="./../figures/1d_convolution.png" width=500>
+<img src="./../../figures/1d_convolution.png" width=500>
 
 
 ### 2. 2D Convolution Layer
@@ -37,7 +37,7 @@ Convolution 연산을 수행하는 레이어이다. 컨볼루션 연산을 모�
         bias_regularizer=None, activity_regularizer=None, kernel_constraint=None,
         bias_constraint=None, **kwargs
     )
-<img src="./../figures/2d_convolution.png" width=500>
+<img src="./../../figures/2d_convolution.png" width=500>
 
 
 ### 3. 3D Convolution Layer
@@ -49,7 +49,7 @@ Convolution 연산을 수행하는 레이어이다. 컨볼루션 연산을 모�
         bias_regularizer=None, activity_regularizer=None, kernel_constraint=None,
         bias_constraint=None, **kwargs
     )
-<img src="./../figures/3d_convolution.gif" width=500>
+<img src="./../../figures/3d_convolution.gif" width=500>
 
 ### 4. ConvTranspose (UpConv, DeConv)
 Convolution을 반대로 해주는 것이다. 오토인코더의 디코더 부분, GAN의 Generator, Unet 등에 활용된다.
@@ -68,7 +68,7 @@ Convolution을 반대로 해주는 것이다. 오토인코더의 디코더 부�
     tf.keras.layers.Conv3DTranspose(
         filters, kernel_size, strides=(1, 1), padding='valid', ...
     )
-<img src="./../figures/deconv.png" width=500>
+<img src="./../../figures/deconv.png" width=500>
 
 ### Upsampling VS ConvTranspose
 두개의 차이가 햇갈린다면 아래의 인용구를 참고!
@@ -87,13 +87,13 @@ Convolution을 반대로 해주는 것이다. 오토인코더의 디코더 부�
     tf.keras.layers.AveragePooling2D(
         pool_size=(2, 2), strides=None, padding='valid'
     )
-<img src="./../figures/avg-max-pool.png" width=500>
+<img src="./../../figures/avg-max-pool.png" width=500>
 
 
 ### 3. GlobalAveragePooling (= Flatten 대신 활용하는 레이어)
     tf.keras.layers.GlobalAveragePooling2D()
 
-<img src="./../figures/gap.png" width=500>
+<img src="./../../figures/gap.png" width=500>
 
 ***
 
@@ -118,7 +118,7 @@ Convolution을 반대로 해주는 것이다. 오토인코더의 디코더 부�
         go_backwards=False,
     )
 
-<img src="./../figures/rnn-based.png" width=500>
+<img src="./../../figures/rnn-based.png" width=500>
 
 ## Layers etc.
 ### 1. Input Layer

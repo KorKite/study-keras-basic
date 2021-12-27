@@ -18,7 +18,7 @@
 * Posterior를 훈련 후의 CNN, RNN을 의미한다고 생각하면 됩니다.
 
 ## Bayesian Model Space
-<img src="./../figures/prior_posterior_likelihood.png" width=500>
+<img src="/prior_posterior_likelihood.png" width=500>
 
 1. 인공지능 모델 학습은 베이지안 이론에 기반합니다.
     
@@ -31,18 +31,18 @@
 
 ## Example1 Dataspace
     Data Space가 관측에 따라 변화하는 것을 볼 수 있습니다.
-<img src="./../figures/dataspace_1.png" width=500>
+<img src="./../../figures/dataspace_1.png" width=500>
 
-<img src="./../figures/dataspace_2.png" width=500>
+<img src="./../../figures/dataspace_2.png" width=500>
 
-<img src="./../figures/dataspace_3.png" width=500>
+<img src="./../../figures/dataspace_3.png" width=500>
 
 ## Example2 - Sinusoidal Data
     실제 예시와 관측되는 그래프의 변화입니다.
-<img src="./../figures/sinusoidal_1.png" width=500>
+<img src="./../../figures/sinusoidal_1.png" width=500>
 
-<img src="./../figures/sinusoidal_2.png" width=500>
+<img src="./../../figures/sinusoidal_2.png" width=500>
 
-<img src="./../figures/sinusoidal_3.png" width=500>
+<img src="./../../figures/sinusoidal_3.png" width=500>
 
-<img src="./../figures/sinusoidal_4.png" width=500>
+<img src="./../../figures/sinusoidal_4.png" width=500>

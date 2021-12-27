@@ -1,7 +1,7 @@
 # Ch15 timedistributed layer
 
 ## What is timedistributed layer?
-<img src="./../figures/mil-ex.png" width=800>
+<img src="../../figures/mil-ex.png" width=800>
 
 * 다음과 같은 모델을 설계한다고 해보자.
 * 다음 모델은 25장의 이미지를 활용하여 이미지를 분류하는 모델이다.
