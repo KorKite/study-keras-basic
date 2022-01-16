@@ -17,7 +17,7 @@
 2. 만약 RAM의 데이터가 GPU에 안올라가면 어떻하지?
 
 * 이 두가지 문제를 해결해야한다.
-* 2번의 경우 Batch_size로 일부만큼만 GPU에 올려 나눠서 학습하면서 해결할 수 있다. ([만약 에포크, 배치사이즈 등의 개념을 모른다면 클릭](https://github.com/KorKite/study-keras-basic/tree/main/special-session) )
+* 2번의 경우 Batch_size로 일부만큼만 GPU에 올려 나눠서 학습하면서 해결할 수 있다. ([만약 에포크, 배치사이즈 등의 개념을 모른다면 클릭](https://github.com/KorKite/study-keras-basic/tree/main/contents/special-session) )
 * 그러나, 1번의 경우 어떻게하면 좋을까?
 
 ### Solutions
