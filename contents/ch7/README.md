@@ -1,4 +1,4 @@
-# Ch7. Class Inherit API Model
+# Ch7. Subclass API Method
 * 모델을 정의하는 마지막 방법으로 keras의 모델클래스에서 상속을 받아 정의하는 방법이 있다.
 * 뒤에 배울, tf.function을 통해 fit 자체의 수정이 가능해 용이하다.
 * 가중치가 학습된 layer를 모델에서 그대로 불러올 수 있다는 장점 때문에, 모델의 일부분만 사용하는 경우에 자주 사용된다.
