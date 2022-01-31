@@ -25,7 +25,7 @@ import tensorflow as tf
     + tf... 하고 뒤에 붙는 Tensor연산을 keras.layer의 API와 활용할 수 있도록 재정의된 엔진이다.
     + expand_dims, lambda 등의 기능을 활용하기 위해 자주 활용된다.
 
-### GPU Usage
+### GPU Usage (Old)
 * GPU가 달려있는 서버를 사용할 경우 텐서플로우는 최대한 많은 양의 GPU를 확보하려고 한다.
 * 그렇기 때문에, GPU가 2대일 경우 한대만 활용해주어야 한다.
 ```python
@@ -34,3 +34,10 @@ os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
 os.environ["CUDA_VISIBLE_DEVICES"]= "1"
 ```
 다음 코드를 통해 특정 GPU만을 활용하도록 할 수 있다.
+
+### GPU Usage 2 (New)
+* (tf_alloc)[https://github.com/KorKite/tf_alloc]이라는 패키지를 활용하면 더 쉽게 특정 GPU를 특정 비율만큼만 할당할 수 있다.
+```python
+from tf_alloc import allocate
+allocate(1, 0.5) # 1번 GPU를 0.5만큼만 사용하겠다는 코드
+```

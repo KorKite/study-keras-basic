@@ -26,6 +26,7 @@
 * 위의 방식대로 배치별 훈련이 진행된다. ch12에서 진행한 코드를 변경해보자.
 
 ```python
+from tensorflow.keras.utils import Sequence
 class CustomDataloader(Sequence):
 	def __init__(self, x_set, y_set, batch_size, shuffle=False):
 	    self.x, self.y = x_set, y_set

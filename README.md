@@ -18,10 +18,10 @@
 * [Ch13. Custom Data Loader 2 - Batch-load Data](https://github.com/KorKite/study-keras-basic/tree/main/contents/ch13)
 * [Ch14. Model Training 2 - gradientTape](https://github.com/KorKite/study-keras-basic/tree/main/contents/ch14)
 * [Ch15. MIL - timedistributed layer](https://github.com/KorKite/study-keras-basic/tree/main/contents/ch15)
-* Ch16. Decay Process (API, gradientTape)
-* Ch17. Custom Callbacks
-* Ch18. Custom Layers
-* Ch19. Custom Loss, Custom Metric
+* [Ch16. Custom Callbacks](https://github.com/KorKite/study-keras-basic/tree/main/contents/ch16)
+* [Ch17. Custom Layers](https://github.com/KorKite/study-keras-basic/tree/main/contents/ch17)
+* Ch18. Custom Loss, Custom Metric
+* ch19. Special (History, Save, etc)
 * [Assignments](https://github.com/KorKite/study-keras-basic/blob/main/contents/assignment.md)
 <img src="figures/thumnail.png" width=500>
 
