@@ -21,7 +21,7 @@
 * [Ch16. Custom Callbacks](https://github.com/KorKite/study-keras-basic/tree/main/contents/ch16)
 * [Ch17. Custom Layers](https://github.com/KorKite/study-keras-basic/tree/main/contents/ch17)
 * [Ch18. Custom Loss, Custom Metric](https://github.com/KorKite/study-keras-basic/tree/main/contents/ch18)
-* [ch19. Special (History, Save, etc)](https://github.com/KorKite/study-keras-basic/tree/main/contents/ch19)
+* [Ch19. Special (History, Save, etc)](https://github.com/KorKite/study-keras-basic/tree/main/contents/ch19)
 * [Assignments](https://github.com/KorKite/study-keras-basic/blob/main/contents/assignment.md)
 <img src="figures/thumnail.png" width=500>
 
