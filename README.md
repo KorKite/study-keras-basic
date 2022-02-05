@@ -2,6 +2,10 @@
 * 딥러닝과 관련된 여러가지를 Keras, Tensorflow로 학습하기 위해 제작하였습니다.
 * 주로 이미지 분류를 수행하는데 활용되는 여러 기술을 위주로 작성되어 있습니다.
 
+## Requirements
+* tensorflow==2.6.0 (최소 2.4.0 이상)
+* keras==2.6.0
+
 ## Objectives
 * [Ch1. Activations, Metrics, Optimizer and Loss Function](https://github.com/KorKite/study-keras-basic/blob/main/contents/ch1)
 * ~~[Ch2. Bayesian Model Space]~~
