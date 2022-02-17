@@ -133,7 +133,16 @@ for epoch in range(EPOCHS):
 
 * 마지막으로는 loss, acc를 담아둔 함수에서 결과를 뽑아 프린트합니다.
 
+## tf.function
+```python
+@tf.function(experimental_relax_shapes=True)
+```
+* tf.function에 다음과 같은 파라미터를 줄 수 있습니다. 
+* 이는 인풋을 처리할 때, 각 입력에 특화되지 않도록 변경해줌으로서 성능을 크게 향상 시킵니다.
+* 거의 무조건 다음과 같은 파라미터를 사용해주면 좋습니다.
+
 ## Application
 * 이 과정을 가장 유용하게 활용하는 경우는 GAN 학습시입니다.
 * GAN은 Loss가 2개 이상인 경우가 많습니다. 그럴때는 GradientTape을 2개 사용해서 한개에 모델에 대해 다른 로스를 적용할 수 있습니다.
 * [텐서플로우 Pix2pix GAN 예제](https://www.tensorflow.org/tutorials/generative/pix2pix?hl=ko)를 통해 GradientTape을 최대한 잘 활용한 예시를 확인해보세요.
+
