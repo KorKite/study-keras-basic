@@ -141,6 +141,16 @@ for epoch in range(EPOCHS):
 * 이는 인풋을 처리할 때, 각 입력에 특화되지 않도록 변경해줌으로서 성능을 크게 향상 시킵니다.
 * 거의 무조건 다음과 같은 파라미터를 사용해주면 좋습니다.
 
+## Print Inside of tf.function
+```python
+@tf.function(experimental_relax_shapes=True)
+def train_step():
+    ...
+    tf.print(things_to_print)
+```
+* tf.function을 데코레이터로 한 함수에서는 일반적인 print로는 실행되지 않음.
+* tf.print를 사용하면 언제나 프린트가 가능하기 때문에, 이를 활용해주면 됨
+
 ## Application
 * 이 과정을 가장 유용하게 활용하는 경우는 GAN 학습시입니다.
 * GAN은 Loss가 2개 이상인 경우가 많습니다. 그럴때는 GradientTape을 2개 사용해서 한개에 모델에 대해 다른 로스를 적용할 수 있습니다.
