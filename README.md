@@ -13,7 +13,7 @@
 * [Ch4. Basic Tensorflow Layers](https://github.com/KorKite/study-keras-basic/tree/main/contents/ch4)
 * [Ch5. Sequential Model](https://github.com/KorKite/study-keras-basic/tree/main/contents/ch5)
 * [Ch6. Functional API Model](https://github.com/KorKite/study-keras-basic/tree/main/contents/ch6)
-* [Ch7. Class Inherit API Model](https://github.com/KorKite/study-keras-basic/tree/main/contents/ch7)
+* [Ch7. Subclass API Model](https://github.com/KorKite/study-keras-basic/tree/main/contents/ch7)
 * [Ch8. Model of Keras Application](https://github.com/KorKite/study-keras-basic/tree/main/contents/ch8)
 * [Ch9. Model Training 1 - compile, fit](https://github.com/KorKite/study-keras-basic/tree/main/contents/ch9)
 * [Ch10. Callbacks](https://github.com/KorKite/study-keras-basic/tree/main/contents/ch10)
